@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>沈鹤 · 个人主页</title>
+<meta name="description" content="沈鹤 — 大数据专业本科在读。项目：墨.ML 智能体工作台、MCM 数学建模工作流、多品类报告生成系统。">
+<style>
+  :root{--ink:#1a2332;--sub:#5b6b82;--line:#e3e9f2;--accent:#0f5fd0;--bg:#f7f9fc;--card:#ffffff}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+  .wrap{max-width:860px;margin:0 auto;padding:48px 20px 64px}
+  header{padding:28px 0 8px}
+  h1{font-size:34px;letter-spacing:.02em}
+  .role{color:var(--accent);font-weight:600;margin-top:6px}
+  .intro{color:var(--sub);margin-top:12px;max-width:640px}
+  h2{font-size:20px;margin:40px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--line)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:14px}
+  .card h3{font-size:17px}
+  .card h3 a{color:var(--ink);text-decoration:none}
+  .card h3 a:hover{color:var(--accent)}
+  .card p{color:var(--sub);font-size:14.5px;margin-top:6px}
+  .tags{margin-top:10px}
+  .tag{display:inline-block;font-size:12px;color:var(--accent);background:#eaf2fd;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0}
+  .subsys{font-size:14.5px;color:var(--sub);margin-top:8px}
+  .subsys li{margin-left:18px;margin-top:2px}
+  .skills{display:flex;flex-wrap:wrap;gap:8px}
+  .skill{font-size:13.5px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 14px}
+  .links a{display:inline-block;margin:0 14px 8px 0;color:var(--accent);text-decoration:none;font-weight:600}
+  .links a:hover{text-decoration:underline}
+  .qr{display:flex;gap:28px;flex-wrap:wrap;margin-top:6px}
+  .qr figure{text-align:center}
+  .qr img{width:148px;height:148px;border:1px solid var(--line);border-radius:10px;background:#fff}
+  .qr figcaption{font-size:13px;color:var(--sub);margin-top:6px}
+  .pending{width:148px;height:148px;border:1.5px dashed #b9c6da;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#8fa1bb;font-size:13px;text-align:center;padding:10px}
+  footer{margin-top:48px;color:#8fa1bb;font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>沈鹤</h1>
+    <div class="role">大数据专业本科在读 · 数据工程 / 量化分析 / AI 智能体工作流</div>
+    <p class="intro">关注把数据 pipeline、量化分析与大模型智能体做成能长期运行的系统。主要项目为本地多智能体工作台「墨.ML」与美国大学生数学建模竞赛（MCM）专用论文生产流水线，代码托管于 GitHub。</p>
+  </header>
+
+  <h2>项目</h2>
+
+  <div class="card">
+    <h3><a href="https://github.com/shencangsheng513">墨.ML — AI 智能体工作台</a></h3>
+    <p>本地运行的多智能体协作平台，统一调度数据、量化与写作类智能体，含完整的调用审计与风控门禁。四大子系统：</p>
+    <ul class="subsys">
+      <li><b>行情监控</b>：A 股行情采集、监控与选股日报</li>
+      <li><b>Quick BI</b>：5,579 家上市公司目录与快速商业智能分析</li>
+      <li><b>Thesis Forge 论文工坊</b>：论文结构生成与质量检查</li>
+      <li><b>QuantFlow 量化平台</b>：策略回测、信号与风控审计面板</li>
+    </ul>
+    <div class="tags"><span class="tag">Python</span><span class="tag">多智能体编排</span><span class="tag">DuckDB</span><span class="tag">量化回测</span></div>
+  </div>
+
+  <div class="card">
+    <h3>MCM 数学建模竞赛工作流</h3>
+    <p>为 MCM/ICM 自研的论文生产流水线：选题决策、建模求解、学术绘图、双模型盲审、引用与合规检查分阶段衔接，关键节点人工确认。已完成 2025 年 C 题全尺寸实测，产出 24 页完整论文（14 幅图），并沉淀选题检查点清单与赛前 30 天执行表。</p>
+    <div class="tags"><span class="tag">数学建模</span><span class="tag">LaTeX</span><span class="tag">数据可视化</span><span class="tag">质量门禁</span></div>
+  </div>
+
+  <div class="card">
+    <h3>多品类报告生成与质检系统</h3>
+    <p>覆盖数据分析、课程论文、开题报告、文献综述、竞赛论文等六类报告的模板与质检体系：引用/DOI 在线核查、数字一致性检查、主张来源登记与全量回归测试，保证每一份交付可复核。</p>
+    <div class="tags"><span class="tag">文档工程</span><span class="tag">自动化测试</span><span class="tag">引用核查</span></div>
+  </div>
+
+  <div class="card">
+    <h3>AuraFlow — 交互式音频氛围应用</h3>
+    <p>Web 端氛围音频生成与混音应用，支持场景预设、无损 WAV 导出与媒体会话控制，完成 134 项自动化测试。</p>
+    <div class="tags"><span class="tag">JavaScript</span><span class="tag">Web Audio</span></div>
+  </div>
+
+  <h2>技能</h2>
+  <div class="skills">
+    <span class="skill">Python（pandas / DuckDB）</span>
+    <span class="skill">数据分析与可视化</span>
+    <span class="skill">数学建模</span>
+    <span class="skill">LaTeX 排版</span>
+    <span class="skill">HTML / CSS / JavaScript</span>
+    <span class="skill">Git / GitHub</span>
+    <span class="skill">大模型智能体编排</span>
+    <span class="skill">SQL</span>
+  </div>
+
+  <h2>链接与二维码</h2>
+  <div class="links">
+    <a href="https://github.com/shencangsheng513">GitHub 主页</a>
+    <a href="https://github.com/shencangsheng513/QuantFlow">QuantFlow 公开仓库</a>
+  </div>
+  <div class="qr">
+    <figure><img src="qr-site.png" alt="个人主页二维码"><figcaption>扫码打开本页</figcaption></figure>
+    <figure><img src="qr-repo.png" alt="QuantFlow 公开仓库二维码"><figcaption>扫码看 QuantFlow 公开仓库</figcaption></figure>
+    <figure><div class="pending">公众号二维码<br>待补充</div><figcaption>公众号</figcaption></figure>
+  </div>
+
+  <footer>© 2026 沈鹤 · 本页托管于 GitHub Pages，国内网络可直接访问</footer>
+</div>
+</body>
+</html>
